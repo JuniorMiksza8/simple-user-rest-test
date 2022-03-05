@@ -1,0 +1,42 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "nodemon --delay 500ms index.ts",
+        "test": "NODE_ENV=test jest"
+    },
+    "main": "index.js",
+    "repository": "https://github.com/JuniorMiksza8/voucher.git",
+    "author": "mypharma <junior.miksza8@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/faker": "^5.5.9",
+        "@types/jest": "^27.4.0",
+        "@types/multer": "^1.4.7",
+        "@types/node": "^17.0.8",
+        "@types/supertest": "^2.0.11",
+        "@types/uuid": "^8.3.4",
+        "dotenv": "^10.0.0",
+        "jest": "^27.4.7",
+        "jest-mock-extended": "^2.0.4",
+        "nodemon": "^2.0.15",
+        "prisma": "^3.10.0",
+        "supertest": "^6.1.6",
+        "ts-jest": "^27.1.2",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.4"
+    },
+    "dependencies": {
+        "@prisma/client": "^3.7.0",
+        "chalk": "4",
+        "class-transformer": "^0.5.1",
+        "class-validator": "^0.13.2",
+        "date-fns": "^2.28.0",
+        "express": "^4.17.2",
+        "faker": "5.5.3",
+        "multer": "^1.4.4",
+        "reflect-metadata": "^0.1.13",
+        "routing-controllers": "^0.9.0"
+    }
+}
